@@ -10,6 +10,7 @@ package model;
  * @author akzer
  */
 public class ModelProdutos {
+
     private int codProduto;
     private String nomeProd;
     private float valorProd;
@@ -70,6 +71,5 @@ public class ModelProdutos {
     public void setQtEstoque(float qtEstoque) {
         this.qtEstoque = qtEstoque;
     }
-    
-    
+
 }
